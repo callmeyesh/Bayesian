@@ -1,0 +1,64 @@
+Naive Bayesian Spam Classification 
+Version: 1
+Last Modified: 04/16/2013   
+
+
+CONTENTS
+
+1. INTRODUCTION
+2. FEATURES AND BENEFITS
+3. HOW TO START THE SOFTWARE
+4. MINIMUM SYSTEM REQUIREMENTS
+5. LICENSE
+6. REFERENCES
+
+1. INTRODUCTION
+
+E-mail is an increasingly common form of communication. In this project
+we evaluate the performance of naive bayesian classification on PU1 
+corpus. 
+The corpus can be found at http://www.aueb.gr/users/ion/publications.html
+
+2. FEATURES
+
+Bayesian requires the user to specify the path to the data-set folder.
+It does a 10-fold validation on the data-set and outputs the classifiers
+accuracy, precision, error rate, recall and specificity.
+ 
+3. HOW TO START THE SOFTWARE
+
+CCIS LINUX MACHINE (standard configuration)
+
+Step 1. Start the Terminal Application.  
+Step 2. Move to the directory where you have down-loaded the software.  
+Step 3. Extract the down-loaded software into a desired folder.
+Step 4. Move to the directory where you have extracted the software and
+        execute the following command:
+
+        $ java Bayesian <dir>
+
+        where
+		<dir> is the path to one of the four data-sets.
+		 
+NOTE: 
+The PU1-encoded corpus provided contains 4 data-sets:
+i.   Unmodified (bare)
+ii.  With Lemmatizer's removed (lemm)
+iii. With Lemmatizer's and stop-words removed (lemm_stop)
+iv.  With stop-words removed (stop)
+The user should provide the absolute path to anyone of these four data-sets.
+
+4. MINIMUM SYSTEM REQUIREMENTS
+
+CCIS LINUX MACHINE
+a. Standard Configuration.
+
+5. LICENSE
+Copyright © 2013 Yeshwanth Venkatesh. 
+
+6. REFERENCES
+http://www.paulgraham.com/spam.html
+http://www.paulgraham.com/better.html
+http://en.wikipedia.org/wiki/Bayesian_spam_filtering
+
+
