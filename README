@@ -27,7 +27,7 @@ accuracy, precision, error rate, recall and specificity.
  
 3. HOW TO START THE SOFTWARE
 
-CCIS LINUX MACHINE (standard configuration)
+LINUX MACHINE (standard configuration)
 
 Step 1. Start the Terminal Application.  
 Step 2. Move to the directory where you have down-loaded the software.  
@@ -50,7 +50,7 @@ The user should provide the absolute path to anyone of these four data-sets.
 
 4. MINIMUM SYSTEM REQUIREMENTS
 
-CCIS LINUX MACHINE
+LINUX MACHINE
 a. Standard Configuration.
 
 5. LICENSE
